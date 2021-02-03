@@ -11,7 +11,7 @@ In TOC You would need to find those elements in the list/tree and check/uncheck,
 Probably it would be possible to sort list with atomic number, but that would not be practical as similarities of chemical properties works both by group and period (in two dimentions).
 Thus the only robust and efficient way to switch between layers with geochemical data is through periodic element table, which this widget implements.
 
-## How?
+## How does it work?
 
 This plugin uses extensively the small but robust [`qpet`](https://github.com/sem-geologist/qpet) library.
 `qpet` gives periodic element table widget and function to recognise chemical elements (names or abreviation) in a string.
@@ -19,6 +19,11 @@ This plugin consist mostly of borderplate code (made partly with plugin-builder3
 to sync the state of element table widget, and other way arround ((un-)checking the layers when element button in the widget is (un-)checked).
 Thanks to cleverly designed API of QGis, this plugin works out-of the box with layers placed in "Mutually exclusive groups" in TOC.
 
+## How to test it?
+
+When plugin is started and there is no layer which would contain name or abreviation of chemical element, all buttons of element table is disabled. When project is loaded or if layers are added to current project which contain element information in name, buttons for those elements will be enabled. Only buttons which coresponding element was found in layers are enabled.
+When last for given element layer is removed from TOC, the coresponding button in element table is unchecked and disabled.
+To see this plugin in action UK Soil geochemical WMS maps can be used. Often it is practical to put such layers into Group and mark as "Mutually exclusive group".
 
 ## For bug report and issues
 For adding the language support (dictionary of element names and abbreviations in wished language) please open the issue at [`qpet`](https://github.com/sem-geologist/qpet) repository.
