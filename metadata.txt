@@ -25,7 +25,7 @@ hasProcessingProvider=no
 # Tags are comma separated with spaces allowed
 tags=python, geochemistry, chemistry, geology, ecology, environment
 
-#homepage=http://homepage
+homepage=https://github.com/sem-geologist/qgis-element-table
 category=Plugins
 icon=pt-colorful.svg
 # experimental flag
