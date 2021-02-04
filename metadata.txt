@@ -10,7 +10,7 @@ version=0.2
 author=Petras Jokubauskas
 email=p.jokubauskas@uw.edu.pl
 
-about=When dealing with geochemical maps it is quite cumbersome to use the layer tree (TOC). This is where this plugin comes to help. The plugin parses the names of layers and tracks layers where name contains single element name(s) or/and abbreviation(s). For interacting with layers (checking/ unchecking for visibility) it presents the chemical table widget. Currently it supports polish and english element names.
+about=When dealing with geochemical maps it is quite cumbersome to use the layer tree (TOC). This is where this plugin comes to help. The plugin parses the names of layers and tracks layers where name contains single element name(s) or/and abbreviation(s). For interacting with layers (checking/ unchecking for visibility) it presents the chemical table widget. Currently it supports Polish and English element names.
 
 tracker=https://github.com/sem-geologist/qgis-element-table/issues
 repository=https://github.com/sem-geologist/qgis-element-table
