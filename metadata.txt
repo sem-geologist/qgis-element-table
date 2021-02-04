@@ -6,11 +6,15 @@
 name=Element table
 qgisMinimumVersion=3.0
 description=This plugin lets to set/unset visibility of layer with chemical data with a help of element table widget
-version=0.2
+version=0.3
 author=Petras Jokubauskas
 email=p.jokubauskas@uw.edu.pl
 
-about=When dealing with geochemical maps it is quite cumbersome to use the layer tree (TOC). This is where this plugin comes to help. The plugin parses the names of layers and tracks layers where name contains single element name(s) or/and abbreviation(s). For interacting with layers (checking/ unchecking for visibility) it presents the chemical table widget. Currently it supports Polish and English element names.
+about=When dealing with geochemical maps it is quite cumbersome to use the layer tree (TOC).
+    This is where this plugin comes to help.
+    The plugin parses the names of layers and tracks layers where name contains single element name(s) or/and abbreviation(s).
+    For interacting with layers (checking/ unchecking for visibility) it presents the chemical table widget.
+    Currently it supports Polish and English element names.
 
 tracker=https://github.com/sem-geologist/qgis-element-table/issues
 repository=https://github.com/sem-geologist/qgis-element-table
@@ -20,7 +24,7 @@ repository=https://github.com/sem-geologist/qgis-element-table
 
 hasProcessingProvider=no
 # Uncomment the following line and add your changelog:
-# changelog=
+changelog=0.3
 
 # Tags are comma separated with spaces allowed
 tags=python, geochemistry, chemistry, geology, ecology, environment
